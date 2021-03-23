@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-size: 300%;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.btn-rosso {
+    background: indianred;
+}
+
+.btn-verde {
+    background: #379937;
+}
+
+.nero {
+    color: #000;
+}
+
+.rosso {
+    color: indianred;
+}
+
+.verde {
+    color: #379937;
+}
