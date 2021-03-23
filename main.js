@@ -5,9 +5,9 @@ var app = new Vue(
     {
         el: '#root',
         data: {
-            message: 'hello world',
+            message: '',
             colore: 'nero',
-            img: 'https://picsum.photos/200'
+            img: 'https://picsum.photos/'
         },
         methods: {
             cambiaRosso: function () {
@@ -15,6 +15,9 @@ var app = new Vue(
             },
             cambiaVerde: function () {
                 this.colore = 'verde';
+            },
+            cambiaNero: function () {
+                this.colore = 'nero';
             }
         }
     }

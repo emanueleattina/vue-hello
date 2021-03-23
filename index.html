@@ -17,18 +17,19 @@
 <body>
     
     <div id="root" class="container">
+        <input placeholder="nome" v-model="message">
         <div :class="colore">
-            <h1>{{ message }}</h1>
-            <h2>{{ message }}</h2>
-            <h3>{{ message }}</h3>
-            <h4>{{ message }}</h4>
-            <h5>{{ message }}</h5>
-            <h6>{{ message }}</h6>
+            <h1>hello {{ message }}</h1>
+            <h2>hello {{ message }}</h2>
+            <h3>hello {{ message }}</h3>
+            <h4>hello {{ message }}</h4>
+            <h5>hello {{ message }}</h5>
+            <h6>hello {{ message }}</h6>
         </div>
 
         <button @click="cambiaRosso" class="btn btn-rosso">cambia colore</button>
         <button @click="cambiaVerde" class="btn btn-verde">cambia colore</button>
-        <img :src="img">
+        <img @click="cambiaNero" :src="img + 500">
     </div>
 
 

@@ -13,6 +13,17 @@
     font-size: 300%;
 }
 
+.container input {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    /* background: rgba(0, 0, 0, 0.05); */
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
 .container div {
     display: flex;
     flex-direction: column;
@@ -21,6 +32,8 @@
 
 .container img {
     margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
 .btn {
@@ -34,10 +47,12 @@
 
 .btn-rosso {
     background: indianred;
+    box-shadow: 0px 0px 5px indianred;
 }
 
 .btn-verde {
     background: #379937;
+    box-shadow: 0px 0px 5px #379937;
 }
 
 .nero {
